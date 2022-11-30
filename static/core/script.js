@@ -342,7 +342,8 @@ topSurface.addEventListener('mousemove', event => {
     };
 });
 
-topSurface.addEventListener('mouseup', event => {
+// Window includes mouseup events over bug.
+window.addEventListener('mouseup', event => {
     if (event.button === 0) { untriggerUpdateControls('mouse'); };
 });
 
