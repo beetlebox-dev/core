@@ -10,7 +10,6 @@
     <meta name="description" content="Rotate the inner-core and place the falling shells around the outside. Complete layers to keep shells below the outer ring.">
     {% include "icons.html" %}
     <link rel="apple-touch-icon" href="{{ url_for('static', filename='core/apple_touch_icon.png') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='bug.css') }}">
 
     <style>
 
@@ -64,8 +63,6 @@
 </head>
 
 <body class="text-settings">
-
-    {% include "bug.html" %}
 
     <canvas id="canvas1" class="position-fixed">
         Your browser does not support the canvas element.
