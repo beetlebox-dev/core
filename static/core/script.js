@@ -1,5 +1,5 @@
 
-// Copyright 2021 Johnathan Pennington | All rights reserved.
+// (c) 2021-2022 Johnathan Pennington | All rights reserved.
 
 
 // HTML ELEMENTS
